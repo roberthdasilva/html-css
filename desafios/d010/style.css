@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: Android;
-    src: url(fontes/idroid.otf);
-}
 
 @font-face {
     font-family: Bebas Neue;
@@ -57,7 +53,7 @@ header{
 
 header > h1{
     color: white;
-    font-family: var(--fonte-destaque);  
+    font-family: 'android', sans-serif;  
     font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
